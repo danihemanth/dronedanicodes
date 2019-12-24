@@ -74,7 +74,7 @@ def get_current_mission(vehicle):
         n_wp, wpList
     """
 
-    print "Downloading mission"
+    print ("Downloading mission")
     download_mission(vehicle)
     missionList = []
     n_WP        = 0
